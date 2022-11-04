@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#wrapper {
+  width: 60%;
+  margin: auto;
+  border: 1px solid #2554b1;
+}
+#form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 9rem auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+h2 {
+  color: #101828;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+.first-lastname {
+  display: flex;
+  gap: 1.5rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+#first_name,
+#last_name {
+  border: 1px solid grey;
+  width: 15rem;
+  padding: 0.2rem;
+  border-radius: 8px;
+}
+#email {
+  border: 1px solid grey;
+  width: 31.5rem;
+  padding: 0.2rem;
+  border-radius: 4px;
+}
+#email {
+  width: 31rem;
+  padding: 0.4rem;
+}
+#first_name input,
+#last_name input {
+  width: 14.5rem;
+  padding: 0.4rem;
+}
+#message {
+  display: block;
+  border: 1px solid grey;
+  width: 31.5rem;
+  height: 10rem;
+  padding: 0.4rem;
+  border-radius: 4px;
+}
+#message textarea {
+  width: 30.7rem;
+  height: 9.4rem;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+.checkbox_span {
+  color: #475467;
+  margin-left: 0.4rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 14px;
+  align-items: center;
+}
+
+.submit_btn {
+  background: #1570ef;
+  color: #ffffff;
+  width: 31.5rem;
+  padding: 0.4rem;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input,
+textarea {
+  border: none;
+  outline: none;
+}
+footer img {
+  height: 22px;
+}
+footer {
+  margin: auto;
+  border-top: 1px solid #eaecf0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* width: inherit; */
+  cursor: pointer;
+}
+footer h2 {
+  color: #667085;
+  font-size: 18px;
+}
+
+@media (max-width: 775px) {
+  #wrapper {
+    width: 100%;
+    margin: auto;
+  }
+  #form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+
+  }
+  form {
+    align-items: center;
+  }
+  .first-lastname {
+    flex-direction: column;
+  }
+  #last_name,
+  #first_name{
+    width: 18rem;
+    padding: 0.2rem;
+    border-radius: 4px;
+  }
+  #email {
+    max-width: 18rem;
+    padding: 0.2rem;
+  }
+  #email input {
+    width: 13rem;
+    padding: 0.4rem;
+  }
+  #first_name input,
+  #last_name input {
+    width: 14.5rem;
+    padding: 0.4rem;
+  }
+  #message {
+    border: 1px solid grey;
+    max-width: 18rem;
+    height: 8rem;
+    padding: 0.4rem;
+  }
+  #message textarea {
+    max-width: 17rem;
+    height: 6.4rem;
+  }
+  .checkbox,
+  .headline {
+    max-width: 79%;
+    align-items: center;
+    justify-content: center;
+  }
+  .checkbox {
+    align-items: flex-start;
+  }
+  .submit_btn {
+    max-width: 18rem;
+    padding: 0.4rem;
+  }
+  footer {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    max-width: 85%;
+  }
+  .zuriLogo {
+    margin-top: 1rem;
+  }
+  footer h2 {
+    font-size: 10px;
+  }
+}

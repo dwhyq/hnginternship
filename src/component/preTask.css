@@ -95,7 +95,7 @@ footer h2 {
     align-items: center;
     position: relative;
     top: 20px;
-    left: 200px;
+    left: 150px;
     border-style: dotted;
     border-radius: 50%;
     padding: 0.2rem;
@@ -108,7 +108,7 @@ footer h2 {
   #pitch,
   #book__design {
     max-width: 85%;
-    padding: 1.2rem;
+    padding: 1.1rem;
   }
   #slackAndGitIcon {
     text-align: center;

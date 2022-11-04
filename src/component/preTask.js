@@ -1,7 +1,7 @@
 import React from "react";
-import dp from "./images/face-card.jpg";
-import zuriLogo from "./images/Vector.png";
-import i4gLogo from "./images/I4G.png";
+import dp from "./all-images/face-card.jpg";
+import zuriLogo from "./all-images/Vector.png";
+import i4gLogo from "./all-images/I4G.png";
 import { SiSlack } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
 import { RiShareForwardLine } from "react-icons/ri";
@@ -39,7 +39,12 @@ function preTask() {
             </a>
           </div>
           <div id="book__design">
-            <a href="https://books.zuri.team/design-rules">Design Books</a>
+            <a href="https://books.zuri.team/design-rules" title="You will be eligible for royalties if any sales of the book is made using you reference i.d">Design Books</a>
+          </div>
+          <div id="contact">
+            <a href="/contact">
+              Contact Me
+            </a>
           </div>
         </div>
         <div id="slackAndGitIcon">
