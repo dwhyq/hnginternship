@@ -8,7 +8,7 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<PreTask />} />
-        <Route path="contact" element={<Contact name="{name}" />} />
+        <Route path="/contact" element={<Contact name="{name}" />} />
       </Routes>
     </div>
   );
