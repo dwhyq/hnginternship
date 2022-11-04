@@ -114,7 +114,7 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  /* width: inherit; */
+  width: 85%;
   cursor: pointer;
 }
 footer h2 {

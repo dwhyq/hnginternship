@@ -7,6 +7,7 @@ import { BsGithub } from "react-icons/bs";
 import { RiShareForwardLine } from "react-icons/ri";
 import { BsThreeDots } from "react-icons/bs";
 import "./preTask.css";
+import { Link } from "react-router-dom";
 
 function preTask() {
   return (
@@ -42,9 +43,9 @@ function preTask() {
             <a href="https://books.zuri.team/design-rules" title="You will be eligible for royalties if any sales of the book is made using you reference i.d">Design Books</a>
           </div>
           <div id="contact">
-            <a href="/contact">
+            <Link to="/contact">
               Contact Me
-            </a>
+            </Link>
           </div>
         </div>
         <div id="slackAndGitIcon">

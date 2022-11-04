@@ -5,7 +5,7 @@ import "./contact.css";
 
 class contact extends Component {
   handleSubmit = (event) => {
-    alert(`sent`);
+    alert(`message sent`);
     event.preventDefault();
   };
   render() {
