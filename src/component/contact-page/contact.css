@@ -71,6 +71,10 @@ label {
   width: 30.7rem;
   height: 9.4rem;
 }
+#Textarea_error_span {
+  color: red;
+  font-size: 13px;
+}
 .checkbox {
   display: flex;
   align-items: flex-start;
@@ -138,6 +142,9 @@ footer h2 {
   }
   form {
     align-items: center;
+  }
+  .headline {
+    width: 18rem;
   }
   .first-lastname {
     flex-direction: column;
